@@ -6,19 +6,19 @@ describe("TodoList test cases", () => {
     const oneDay = 60 * 60 * 24 * 1000;
     [
       {
-        title: "Complete assignment",
+        title: "Submit assignment",
         completed: false,
         dueDate: new Date(today.getTime()- 1*oneDay).toLocaleDateString(
           "en-CA"
         ),
       },
       {
-        title: "Go for shopping",
+        title: "Service Vehicle",
         completed: false,
         dueDate: new Date().toLocaleDateString("en-CA"),
       },
       {
-        title: "Complete project",
+        title: "File Taxes",
         completed: false,
         dueDate: new Date(today.getTime() + 1*oneDay).toLocaleDateString(
           "en-CA"
